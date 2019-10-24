@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>Verify-API-Key-1</Name>
+            </Step>
+            <Step>
+                <Name>Quota-1</Name>
+            </Step>
+            <Step>
+                <Name>Response-Cache-1</Name>
+            </Step>
+            <Step>
+                <Name>set-required-key</Name>
+            </Step>
+            <Step>
+                <Name>Message-Logging-1</Name>
+            </Step>
+        </Request>
+        <Response>
+            <Step>
+                <Name>Response-Cache-1</Name>
+            </Step>
+        </Response>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows/>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://api.openweathermap.org/data/2.5/weather</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>

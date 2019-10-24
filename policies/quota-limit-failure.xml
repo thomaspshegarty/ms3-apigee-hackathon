@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging async="false" continueOnError="false" enabled="true" name="quota-limit-failure">
+    <DisplayName>error-message</DisplayName>
+    <Syslog>
+        <Message>[6a635a39-6f3d-43c7-aa6d-77241925c347@41058] 
+        tag={organization.name}.{apiproxy.name}.{environment.name},
+        app={verifyapikey.Verify-API-Key-1.developer.app.name},
+        type=error</Message>
+        <Host>logs-01.loggly.com</Host>
+        <Port>514</Port>
+    </Syslog>
+</MessageLogging>

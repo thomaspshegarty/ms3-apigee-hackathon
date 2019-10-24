@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Message-Logging-1" version="SHA-512:5b4e6c4dd2a41c25e8fa99c02a899f92a7da5bc4bd54a7913e425a4fef4a0dd8e52bdcce8e4b610c101c476bcb6a0c6884c4cfaec289edbecc884080f00b1937"/>
+        <VersionInfo resourceName="Quota-1" version="SHA-512:3b169e8e92e34617a033ebe07016835519490624f8dedc176799bb2cad665d49d5c347fb1a19e6923c47d05994fd169db40f0fe98f5b69c4978ab7398cb55db4"/>
+        <VersionInfo resourceName="Response-Cache-1" version="SHA-512:2cf617cd89ebfc96467d3ea7c0786e89d6ab65b546e097d451127089fe0d39e5665e04dd25399d8c3f72ebc402430822df575a17457268a7262b4ab8bae53f16"/>
+        <VersionInfo resourceName="Set-CORS-Response-Headers" version="SHA-512:96375564c3ad4e2020a744fd1b05b708f45a20b6682e1212d8fd4b886366ae2abcfca3bfa99d33a437f01df91b90054917682dba3f3710b0e47fdf8f8782c495"/>
+        <VersionInfo resourceName="Verify-API-Key-1" version="SHA-512:517ed958d7784b879f2da09f8f6487aef4a434d3e7562d83572852fcb2f20193eabc401d9e610ff3d5c7da47005d69efd52781cb1d19272e9ffb7cabb85363d5"/>
+        <VersionInfo resourceName="quota-limit-failure" version="SHA-512:ac1ece097310936581536664f8b23b2c7855911dce7f2c646f66373fa254d69a9c109d702007d249b1a071df6b3d5c246e543cb9797d31de9a49e55538936ee5"/>
+        <VersionInfo resourceName="set-required-key" version="SHA-512:e2d4f501b65bfff779f07ecb168be69604444817dd285e0da37bea55610d24a6a843bb6016e19fdf52727aebde3cf98ada1119987f31e26fde011a250c94c21d"/>
+        <VersionInfo resourceName="spike-arrest-1" version="SHA-512:4bf3311270f7fbcb6a436b9d5d66a4c80a2cf62d0e2b7d6e2c688c31b84b8cd1b5b242dd423f71f040d2ad01e2d7175adf95554d61b6734b153d4125ee5d03cd"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9274be7476ed4a73cbc4a6d283dad1dac3100fe7da31c333f0e1035194444581d9085475205ec505009ff98722edbfbe0bb868a67288b319256f15d7f47e33af"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:22ac84006ab6f110dde5f4be5ae8c89032c86290b84e49bf2a1786023557948f4dca859a99f119da6f11131217772c2cdffae52e8e9d1424789c6f4f6874029f"/>
+        <VersionInfo resourceName="test-second" version="SHA-512:56a47728b7e8833168e0c77b4f27c9aa10127d1cda97ce806eb6920013682d68dd64e6688c9c270f47bb0c634e67ef833b00af1f448efa705e9d7d9bdb8219b4"/>
+    </TargetEndpoints>
+</Manifest>

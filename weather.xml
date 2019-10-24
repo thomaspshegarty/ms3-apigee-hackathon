@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="11" name="weather">
+    <Basepaths>/weather</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1571773081592</CreatedAt>
+    <CreatedBy>thegarty@ms3-inc.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>weather</DisplayName>
+    <LastModifiedAt>1571943324675</LastModifiedAt>
+    <LastModifiedBy>thegarty@ms3-inc.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:6781db9326083871f4b35e7e6764843cb3148f9d41bea8dbbc1feb7716c828befb853686ce479438226edc72ee1b073e267e55c2dd83f09d2bb385a8cbaf35fc</ManifestVersion>
+    <Policies>
+        <Policy>Message-Logging-1</Policy>
+        <Policy>Quota-1</Policy>
+        <Policy>Response-Cache-1</Policy>
+        <Policy>Set-CORS-Response-Headers</Policy>
+        <Policy>Verify-API-Key-1</Policy>
+        <Policy>quota-limit-failure</Policy>
+        <Policy>set-required-key</Policy>
+        <Policy>spike-arrest-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>test-second</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
